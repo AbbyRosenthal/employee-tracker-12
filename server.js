@@ -1,3 +1,4 @@
+
 const express = require('express');
 const db = require('./db/connection');
 const inquirer = require('inquirer');
@@ -22,7 +23,7 @@ db.connect(err => {
 });
 
 
-function askQuestions {
+function askQuestions() {
     inquirer.prompt({
         type: "list",
         name: "start",
@@ -64,8 +65,8 @@ function askQuestions {
                 case "I'm All Done! Goodbye":
                     allDone();
                     break;
-                    default:
-                        askQuestions();
             }
         })
 }
+
+askQuestions();

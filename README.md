@@ -5,5 +5,7 @@ This project is a command line application.  The user starts by choosing if whic
 
 # Walkthrough Video
 
+https://drive.google.com/file/d/1gOjotnGKEzrwrCm2zlybXc2de0V_UYr8/view
+
 # GitHub
 https://github.com/AbbyRosenthal/employee-tracker-12 
